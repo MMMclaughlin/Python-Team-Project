@@ -1,0 +1,229 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="b3a1c590-e657-4568-99a8-fc8f86d4cbac" name="Default Changelist" comment="" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/practical-3" />
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$/practical-3" value="ArgumentParsing" />
+      </map>
+    </option>
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/practical-3/chooser.py" />
+        <option value="$PROJECT_DIR$/practical-3/specification-2/spec2.py" />
+        <option value="$PROJECT_DIR$/practical-3/specification-3/spec3.py" />
+        <option value="$PROJECT_DIR$/practical-3/specification-4/spec4.py" />
+        <option value="$PROJECT_DIR$/practical-3/specification-1/Spec1.py" />
+        <option value="$PROJECT_DIR$/practical-3/CLI.py" />
+        <option value="$PROJECT_DIR$/practical-3/Allspeccs/CLI.py" />
+        <option value="$PROJECT_DIR$/practical-3/Allspeccs/specification-1/Spec1.py" />
+        <option value="$PROJECT_DIR$/practical-3/Allspeccs/specification1/Spec1.py" />
+        <option value="$PROJECT_DIR$/practical-3/Allspeccs/Parentfile.py" />
+        <option value="$PROJECT_DIR$/practical-3/Allspeccs/Spec1.py" />
+        <option value="$PROJECT_DIR$/practical-3/Parentfile.py" />
+        <option value="$PROJECT_DIR$/practical-3/Allspeccs/specification-2/spec2.py" />
+        <option value="$PROJECT_DIR$/practical-3/Allspeccs/specification-3/spec3.py" />
+        <option value="$PROJECT_DIR$/practical-3/Allspeccs/specification-4/spec4.py" />
+        <option value="$PROJECT_DIR$/practical-3/Allspeccs/cli.py" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="7">
+    <option name="x" value="774" />
+    <option name="y" value="295" />
+    <option name="width" value="1318" />
+    <option name="height" value="840" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scope" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="csc1034-team-project" type="b2602c69:ProjectViewProjectNode" />
+              <item name="csc1034-team-project" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="csc1034-team-project" type="b2602c69:ProjectViewProjectNode" />
+              <item name="csc1034-team-project" type="462c0819:PsiDirectoryNode" />
+              <item name="practical-3" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="csc1034-team-project" type="b2602c69:ProjectViewProjectNode" />
+              <item name="csc1034-team-project" type="462c0819:PsiDirectoryNode" />
+              <item name="practical-3" type="462c0819:PsiDirectoryNode" />
+              <item name="Allspeccs" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Course" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="H:\csc1034-team-project\practical-3\Allspeccs\specification1" />
+      <recent name="H:\csc1034-team-project\practical-3\Allspeccs" />
+      <recent name="H:\csc1034-team-project\practical-3\resources" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="b3a1c590-e657-4568-99a8-fc8f86d4cbac" name="Default Changelist" comment="" />
+      <created>1572515894136</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1572515894136</updated>
+      <workItem from="1572515895672" duration="1660000" />
+      <workItem from="1572703256915" duration="6021000" />
+      <workItem from="1572709345018" duration="387000" />
+      <workItem from="1572711689771" duration="956000" />
+    </task>
+    <task id="LOCAL-00001" summary="Argument parsing created">
+      <created>1572711754830</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1572711754830</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Argument parsing created">
+      <created>1572712010906</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1572712010907</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="10632000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-8" y="-8" width="2576" height="1416" extended-state="6" />
+    <layout>
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25397456" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="8" />
+      <window_info anchor="bottom" id="Database Changes" order="9" />
+      <window_info anchor="bottom" id="Educational.CheckDetails" order="10" />
+      <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
+      <window_info anchor="bottom" id="Terminal" order="12" visible="true" weight="0.32951945" />
+      <window_info anchor="bottom" id="Python Console" order="13" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Database" order="3" />
+      <window_info anchor="right" id="SciView" order="4" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Argument parsing created" />
+    <option name="LAST_COMMIT_MESSAGE" value="Argument parsing created" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/practical-3/Allspeccs/Parentfile.py" />
+    <entry file="file://$PROJECT_DIR$/practical-3/Parentfile.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="5" selection-start-column="5" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/practical-3/Allspeccs/specification1/Spec1.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="1" column="32" selection-start-line="1" selection-start-column="32" selection-end-line="1" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/practical-3/Allspeccs/specification2/Spec2.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="1" column="33" selection-start-line="1" selection-start-column="33" selection-end-line="1" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/practical-3/Allspeccs/specification3/Spec3.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="1" column="33" selection-start-line="1" selection-start-column="33" selection-end-line="1" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/practical-3/Allspeccs/specification4/Spec4.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="1" column="33" selection-start-line="1" selection-start-column="33" selection-end-line="1" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/practical-3/Allspeccs/cli.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="408">
+          <caret line="24" column="15" selection-start-line="24" selection-start-column="15" selection-end-line="24" selection-end-column="15" />
+          <folding>
+            <element signature="e#0#15#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>
