@@ -22,6 +22,8 @@ def init(args):
     if args.RGB:
         for i in enumerate(image_list):
             i[1].RGBchange(args)
+
+
 class Imageediting():#this is an instance of every image
     def __init__(self,image,filename):
         self.file=image
