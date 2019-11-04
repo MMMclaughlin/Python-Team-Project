@@ -22,15 +22,15 @@ def init(args):
     if args.RGB:
         for i in enumerate(image_list):
             i[1].RGBchange(args)
-class Imageediting():
+class Imageediting():#this is an instance of every image
     def __init__(self,image,filename):
         self.file=image
         self.name=filename
-    def thumbnailmaker(self,i):
+    def thumbnailmaker(self,i):#function to make a thumbnail of the object
         size=128,128
         self.file.thumbnail(size)
         self.file.save(self.name + ".thumbnail", "JPEG")
-    def filter(self,args):
+    def filter(self,args):#takes a filter name as an argument and applies to the object
         print("this is the start of the function")
         option=(args.F).upper()
         print(option)
@@ -41,7 +41,7 @@ class Imageediting():
             sys.exit()
         Filteredimage = self.file.filter(functionname)
         Filteredimage.save(self.name + option, "JPEG")
-    def RGBchange(self,args):
+    def RGBchange(self,args):#creates a change to the R and B based on the amount of pixels in the image
         width, height=self.file.size
         print(self.name)
         for y in range(0,height):
