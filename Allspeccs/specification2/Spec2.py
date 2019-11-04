@@ -6,10 +6,9 @@ def init(args):
     print("this worked")
     image_list = []
     print(args.file)
-
     folder=str(args.file)
     print(glob.iglob((folder)))
-    for i in  enumerate(glob.iglob(folder)):  # assuming gif
+    for i in  enumerate(glob.iglob(folder)):
         file=PIL.Image.open(i[1])
         instance=Imageediting(file,i[1])
         image_list.append(instance)
