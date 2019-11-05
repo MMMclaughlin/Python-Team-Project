@@ -8,13 +8,19 @@ word = ""
 file = ""
 for line in streamreader:
     for character in line:
+        # sets all characters to lower case so they can be analysed and so that a word with a capital letter isn't
+        # counted separately to the same word without the capital letter
         character.lower()
+        # checks the character being looked at is a letter
         if ord(character) > 96 and ord(character) < 123:
+            # if the character being looked at is already in the characters list
             if character in characters:
-                current_count = characters[character]
-                characters[character] = str(int(current_count) + 1)
+                # increments the count of the relevant character
+                characters[character] = str(int(characters[character]) + 1)
             else:
                 characters[character] = "1"
+
+        # if the character being looked at is the end of a word
         if character == " " or character == ".":
             if word == "":
                 word += character
@@ -42,7 +48,6 @@ plt.figure()
 # plots each of the bars
 values = list(dictionary.values())
 values.sort()
-print(values)
 plt.bar(dictionary.keys(), values)
 # adds labels to each of the bars using the keys of the dictionary
 plt.tight_layout()

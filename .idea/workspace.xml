@@ -2,8 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b3a1c590-e657-4568-99a8-fc8f86d4cbac" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/csc1034-team-project.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/csc1034-team-project.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Allspeccs/specification1/Spec1.py" beforeDir="false" afterPath="$PROJECT_DIR$/Allspeccs/specification1/Spec1.py" afterDir="false" />
     </list>
@@ -122,7 +120,14 @@
       <option name="project" value="LOCAL" />
       <updated>1572966043383</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="character information is now displayed in a bar chart">
+      <created>1572971031607</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1572971031607</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
@@ -147,6 +152,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Argument parsing created" />
     <MESSAGE value="updated the format of the csv file" />
-    <option name="LAST_COMMIT_MESSAGE" value="updated the format of the csv file" />
+    <MESSAGE value="character information is now displayed in a bar chart" />
+    <option name="LAST_COMMIT_MESSAGE" value="character information is now displayed in a bar chart" />
   </component>
 </project>
