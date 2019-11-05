@@ -1,6 +1,9 @@
+import matplotlib.pyplot as plt
+
 streamreader = open("text.txt", "r")
 characters = {}
 dictionary = {}
+amount_of_values = 0
 word = ""
 file = ""
 for line in streamreader:
@@ -28,8 +31,20 @@ for line in streamreader:
                     dictionary[word] = "1"
                     file += word + ", 1 \n"
                 word = ""
+                amount_of_values += 1
         else:
             word += character
 streamreader.close()
 streamwriter = open("csv.txt", "w")
 streamwriter.write(file)
+# creates the bar chart
+plt.figure()
+# plots each of the bars
+values = list(dictionary.values())
+values.sort()
+print(values)
+plt.bar(dictionary.keys(), values)
+# adds labels to each of the bars using the keys of the dictionary
+plt.tight_layout()
+# shows the bar chart
+plt.show()
