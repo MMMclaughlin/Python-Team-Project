@@ -22,34 +22,47 @@ for line in streamreader:
 
         # if the character being looked at is the end of a word
         if character == " " or character == ".":
-            if word == "":
-                word += character
-            else:
+            if not word == "":
+                # compares the new word to the dictionary of all recorded words
                 if word in dictionary:
                     current_count = dictionary[word]
+                    # increments the value associated to the word
                     dictionary[word] = str(int(current_count) + 1)
+                    # go through the entire file
                     for i in range(0, len(file)):
+                        # finds the position of the word within the file
                         if file[i:i+len(word)] == word:
+                            # creates a list copy of the file as a string is immutable so you can't change individual
+                            # characters but a list is mutable
                             filelist = list(file)
+                            # moves along from the position of the key that has just been found to the position of the
+                            # value and increments it
                             filelist[i+len(word)+2] = current_count
+                            # resets file to nothing and then appends the list version of file to the end of the string
                             file = ''.join(filelist)
                 else:
+                    # creates the new key value pair in the dictionary
                     dictionary[word] = "1"
+                    # adds the new key value pair to the file and creates a new line
                     file += word + ", 1 \n"
                 word = ""
                 amount_of_values += 1
         else:
             word += character
 streamreader.close()
+# writes the file string into the text file csv
 streamwriter = open("csv.txt", "w")
 streamwriter.write(file)
-# creates the bar chart
+streamwriter.close()
+# creates a bar chart
 plt.figure()
-# plots each of the bars
+# creates a list of all of the values in the dictionary
 values = list(dictionary.values())
+# orders the values as otherwise the bar chart values don't come out in numerical order
 values.sort()
+# plots each of the bars
 plt.bar(dictionary.keys(), values)
-# adds labels to each of the bars using the keys of the dictionary
+# makes sure that the bar chart fits into the window 
 plt.tight_layout()
 # shows the bar chart
 plt.show()
