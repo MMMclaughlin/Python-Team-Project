@@ -2,14 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b3a1c590-e657-4568-99a8-fc8f86d4cbac" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/practical-3/Allspeccs/CLIinstructions.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/practical-3" beforeDir="false" afterPath="$PROJECT_DIR$/practical-3" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/practical-3/Allspeccs/cli.py" beforeDir="false" afterPath="$PROJECT_DIR$/practical-3/Allspeccs/cli.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/practical-3/Allspeccs/specification1/Spec1.py" beforeDir="false" afterPath="$PROJECT_DIR$/practical-3/Allspeccs/specification1/Spec1.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/practical-3/Allspeccs/specification2/Spec2.py" beforeDir="false" afterPath="$PROJECT_DIR$/practical-3/Allspeccs/specification2/Spec2.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/practical-3/Parentfile.py" beforeDir="false" afterPath="$PROJECT_DIR$/practical-3/Parentfile.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/practical-3/Pipfile" beforeDir="false" afterPath="$PROJECT_DIR$/practical-3/Pipfile" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -19,67 +15,14 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/practical-3/Allspeccs/specification2/Spec2.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="119">
-              <caret line="10" column="44" lean-forward="true" selection-start-line="10" selection-start-column="44" selection-end-line="10" selection-end-column="44" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/practical-3/resources/img/spec2-images/image04.jpg">
-          <provider selected="true" editor-type-id="images" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/practical-3/Allspeccs/specification3/Spec3.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="17">
-              <caret line="1" column="33" selection-start-line="1" selection-start-column="33" selection-end-line="1" selection-end-column="33" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/practical-3/Allspeccs/cli.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="153">
-              <caret line="9" selection-start-line="9" selection-end-line="10" selection-end-column="20" />
+            <state relative-caret-position="1014">
+              <caret line="86" column="59" selection-start-line="86" selection-start-column="59" selection-end-line="86" selection-end-column="59" />
               <folding>
-                <element signature="e#0#15#0" expanded="true" />
+                <element signature="e#0#16#0" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/practical-3/Allspeccs/CLIinstructions.md">
-          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-            <state split_layout="SPLIT">
-              <first_editor relative-caret-position="187">
-                <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
-              </first_editor>
-              <second_editor />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/practical-3/Parentfile.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="17">
-              <caret line="1" column="14" selection-start-line="1" selection-start-column="14" selection-end-line="1" selection-end-column="14" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/practical-3/Allspeccs/specification4/Spec4.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="17">
-              <caret line="1" column="33" selection-start-line="1" selection-start-column="33" selection-end-line="1" selection-end-column="33" />
             </state>
           </provider>
         </entry>
@@ -126,16 +69,16 @@
         <option value="$PROJECT_DIR$/practical-3/testingimages.py" />
         <option value="$PROJECT_DIR$/practical-3/Pipfile" />
         <option value="$PROJECT_DIR$/practical-3/Allspeccs/specification1/Spec1.py" />
-        <option value="$PROJECT_DIR$/practical-3/Allspeccs/specification2/Spec2.py" />
-        <option value="$PROJECT_DIR$/practical-3/Allspeccs/cli.py" />
         <option value="$PROJECT_DIR$/practical-3/Parentfile.py" />
         <option value="$PROJECT_DIR$/practical-3/Allspeccs/README.md" />
+        <option value="$PROJECT_DIR$/practical-3/Allspeccs/cli.py" />
+        <option value="$PROJECT_DIR$/practical-3/Allspeccs/specification2/Spec2.py" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="203" />
-    <option name="y" value="605" />
+    <option name="x" value="640" />
+    <option name="y" value="268" />
     <option name="width" value="1318" />
     <option name="height" value="840" />
   </component>
@@ -189,13 +132,6 @@
               <item name="csc1034-team-project" type="b2602c69:ProjectViewProjectNode" />
               <item name="csc1034-team-project" type="462c0819:PsiDirectoryNode" />
               <item name="practical-3" type="462c0819:PsiDirectoryNode" />
-              <item name="Allspeccs" type="462c0819:PsiDirectoryNode" />
-              <item name="specification4" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="csc1034-team-project" type="b2602c69:ProjectViewProjectNode" />
-              <item name="csc1034-team-project" type="462c0819:PsiDirectoryNode" />
-              <item name="practical-3" type="462c0819:PsiDirectoryNode" />
               <item name="resources" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -204,6 +140,14 @@
               <item name="practical-3" type="462c0819:PsiDirectoryNode" />
               <item name="resources" type="462c0819:PsiDirectoryNode" />
               <item name="img" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="csc1034-team-project" type="b2602c69:ProjectViewProjectNode" />
+              <item name="csc1034-team-project" type="462c0819:PsiDirectoryNode" />
+              <item name="practical-3" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="img" type="462c0819:PsiDirectoryNode" />
+              <item name="spec2-images" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -215,12 +159,15 @@
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/practical-3/Allspeccs" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../practical-2" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors.Debugger" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="H:\csc1034-team-project\practical-3\Allspeccs" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="H:\csc1034-team-project\practical-3\Allspeccs\specification1" />
       <recent name="H:\csc1034-team-project\practical-3\Allspeccs" />
@@ -265,6 +212,9 @@
     <recent_temporary>
       <list>
         <item itemvalue="Python.testingimages" />
+        <item itemvalue="Python.testingimages" />
+        <item itemvalue="Python.testingimages" />
+        <item itemvalue="Python.testingimages" />
       </list>
     </recent_temporary>
   </component>
@@ -290,7 +240,9 @@
       <workItem from="1572862990233" duration="157000" />
       <workItem from="1572863278158" duration="2902000" />
       <workItem from="1572866510749" duration="82000" />
-      <workItem from="1572889491684" duration="2594000" />
+      <workItem from="1572889491684" duration="2731000" />
+      <workItem from="1573142659373" duration="39000" />
+      <workItem from="1573405935857" duration="5840000" />
     </task>
     <task id="LOCAL-00001" summary="Argument parsing created">
       <created>1572711754830</created>
@@ -334,17 +286,24 @@
       <option name="project" value="LOCAL" />
       <updated>1572860497477</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="Spec 2 completed">
+      <created>1572894389362</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1572894389362</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="33376000" />
+    <option name="totallyTimeSpent" value="39392000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="2576" height="1416" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.13593005" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.13791732" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -359,7 +318,7 @@
       <window_info anchor="bottom" id="Database Changes" order="9" />
       <window_info anchor="bottom" id="Educational.CheckDetails" order="10" />
       <window_info anchor="bottom" id="Event Log" order="11" sideWeight="0.50397456" side_tool="true" weight="0.31273836" />
-      <window_info anchor="bottom" id="Terminal" order="12" sideWeight="0.49602544" weight="0.31273836" />
+      <window_info anchor="bottom" id="Terminal" order="12" sideWeight="0.49602544" visible="true" weight="0.31273836" />
       <window_info anchor="bottom" id="Python Console" order="13" weight="0.32951945" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -404,24 +363,12 @@
     <SUITE FILE_PATH="coverage/csc1034_team_project$testingimages.coverage" NAME="testingimages Coverage Results" MODIFIED="1572798910125" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/practical-3" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/practical-3/resources/img/spec2-images/image01.jpg.thumbnail" />
-    <entry file="file://$PROJECT_DIR$/practical-3/resources/img/spec2-images/image02.jpg.thumbnail" />
-    <entry file="file://$PROJECT_DIR$/practical-3/resources/img/spec2-images/image03.jpg.thumbnail" />
-    <entry file="file://$PROJECT_DIR$/practical-3/resources/img/spec2-images/image20.jpg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/practical-3/resources/img/spec2-images/image01.jpgBLURBLURBLUR" />
     <entry file="file://$PROJECT_DIR$/practical-3/resources/img/spec2-images/image03.jpgBLURBLURBLUR" />
     <entry file="file://$PROJECT_DIR$/practical-3/resources/img/spec2-images/image04.jpgBLURBLURBLUR" />
     <entry file="file://$PROJECT_DIR$/practical-3/resources/img/spec2-images/image02.jpgBLURBLURBLUR" />
     <entry file="file://$PROJECT_DIR$/practical-3/resources/img/spec2-images/image02.jpgBLUR" />
     <entry file="file://$PROJECT_DIR$/practical-3/resources/img/spec2-images/image03.jpgBLUR" />
-    <entry file="file://$PROJECT_DIR$/practical-3/resources/img/spec2-images/image07.jpg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/practical-3/resources/img/spec2-images/image08.jpg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/practical-3/resources/img/spec2-images/image08.jpgBLUR" />
     <entry file="file://$PROJECT_DIR$/practical-3/resources/img/spec2-images/image09.jpg">
       <provider selected="true" editor-type-id="images" />
@@ -431,32 +378,14 @@
     <entry file="file://$PROJECT_DIR$/practical-3/resources/img/spec2-images/image06.jpgBLUR" />
     <entry file="file://$PROJECT_DIR$/practical-3/resources/img/spec2-images/image01.jpgBLUR" />
     <entry file="file://$PROJECT_DIR$/practical-3/resources/img/spec2-images/image01.jpgBLURBLUR" />
-    <entry file="file://$PROJECT_DIR$/practical-3/resources/img/spec2-images/image02.jpg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/practical-3/resources/img/spec2-images/image02.jpgBLURBLUR" />
     <entry file="file://$PROJECT_DIR$/practical-3/resources/img/spec2-images/image05.jpgBLUR" />
-    <entry file="file://$PROJECT_DIR$/practical-3/resources/img/spec2-images/image06.jpg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/practical-3/resources/img/spec2-images/image03.jpgBLURBLUR" />
     <entry file="file://$PROJECT_DIR$/practical-3/resources/img/spec2-images/image04.jpgBLURBLUR" />
-    <entry file="file://$PROJECT_DIR$/practical-3/resources/img/spec2-images/image05.jpg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/practical-3/resources/img/spec2-images/image06.jpgBLURBLUR" />
     <entry file="file://$PROJECT_DIR$/practical-3/resources/img/spec2-images/image04.jpgBLUR" />
     <entry file="file://$PROJECT_DIR$/practical-3/resources/img/spec2-images/image01.jpgoffest" />
-    <entry file="file://$PROJECT_DIR$/practical-3/Allspeccs/specification1/text.txt">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/practical-3/Allspeccs/specification1/Spec1.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="29" selection-start-line="29" selection-end-line="29" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/practical-3/Allspeccs/specification1/text.txt" />
     <entry file="file://$PROJECT_DIR$/practical-3/Pipfile">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="119">
@@ -465,9 +394,6 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/practical-3/resources/img/spec2-images/image04.jpgRGB">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/practical-3/resources/img/spec2-images/image01.jpg">
       <provider selected="true" editor-type-id="images" />
     </entry>
     <entry file="file://$PROJECT_DIR$/practical-3/resources/img/spec2-images/image01.jpgRGB">
@@ -491,24 +417,8 @@
     <entry file="file://$PROJECT_DIR$/practical-3/resources/img/spec2-images/image14.jpgRGB">
       <provider selected="true" editor-type-id="images" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/practical-3/resources/img/spec2-images/image03.jpgRGB">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/practical-3/resources/img/spec2-images/image11.jpg">
       <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/practical-3/resources/img/spec2-images/image03.jpg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/practical-3/resources/img/spec2-images/image04.jpg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/practical-3/Parentfile.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="1" column="14" selection-start-line="1" selection-start-column="14" selection-end-line="1" selection-end-column="14" />
-        </state>
-      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/practical-3/Allspeccs/specification4/Spec4.py">
       <provider selected="true" editor-type-id="text-editor">
@@ -524,30 +434,77 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/practical-3/Allspeccs/specification2/Spec2.py">
+    <entry file="file://$PROJECT_DIR$/practical-3/Allspeccs/CLIinstructions.md" />
+    <entry file="file://$PROJECT_DIR$/practical-3/Allspeccs/specification1/Spec1.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="10" column="44" lean-forward="true" selection-start-line="10" selection-start-column="44" selection-end-line="10" selection-end-column="44" />
+        <state relative-caret-position="34">
+          <caret line="29" selection-start-line="29" selection-end-line="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/practical-3/resources/img/spec2-images/image03.jpgRGB">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/practical-3/Parentfile.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" selection-start-line="4" selection-end-line="4" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/practical-3/Allspeccs/cli.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="9" selection-start-line="9" selection-end-line="10" selection-end-column="20" />
+        <state relative-caret-position="527">
+          <caret line="31" column="33" selection-start-line="31" selection-start-column="33" selection-end-line="31" selection-end-column="33" />
           <folding>
             <element signature="e#0#15#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/practical-3/Allspeccs/CLIinstructions.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="187">
-            <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
-          </first_editor>
-          <second_editor />
+    <entry file="file://$PROJECT_DIR$/practical-3/resources/img/spec2-images/image10.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/practical-3/resources/img/spec2-images/image19.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/practical-3/resources/img/spec2-images/image20.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/practical-3/resources/img/spec2-images/image18.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/practical-3/resources/img/spec2-images/image03.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/practical-3/resources/img/spec2-images/image02.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/practical-3/resources/img/spec2-images/image01.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/practical-3/resources/img/spec2-images/image04.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/practical-3/resources/img/spec2-images/image05.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/practical-3/resources/img/spec2-images/image06.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/practical-3/resources/img/spec2-images/image08.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/practical-3/resources/img/spec2-images/image07.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/practical-3/Allspeccs/specification2/Spec2.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1014">
+          <caret line="86" column="59" selection-start-line="86" selection-start-column="59" selection-end-line="86" selection-end-column="59" />
+          <folding>
+            <element signature="e#0#16#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
