@@ -29,6 +29,8 @@ def CLI():#this sets up the arguments we pass to run different parts
                         default=False)
     parser.add_argument("--RGB", help="Decide an image filter",
                         default=False)
+    parser.add_argument("--common", help="Find the most common RGB values in each image ",
+                        default=False)
     args=parser.parse_args()
     print(args)
     args.func(args)
