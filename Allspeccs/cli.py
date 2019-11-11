@@ -14,6 +14,7 @@ def spec3(args):
 def spec4(args):
     Spec4.test()
 def CLI():#this sets up the arguments we pass to run different parts
+    filterhelp="BLUR\nCONTOUR\nDETAIL\nEDGE_ENHANCE\nEDGE_ENHANCE_MORE\nEMBOSS\nFIND_EDGES\nSHARPEN\nSMOOTH\nSMOOTH_MORE"
     parser = argparse.ArgumentParser(prog="Grouptask")#creates parser
     subparsers = parser.add_subparsers(help="Sub Command Help")
     #these will be arguments we can run to test each spec and keep them seperate
@@ -21,16 +22,17 @@ def CLI():#this sets up the arguments we pass to run different parts
     subparsers.add_parser("Imageeditor",help="THis will edit the images in a given folder").set_defaults(func=spec2)
     subparsers.add_parser("website",help="This creates the website?").set_defaults(func=spec3)#not sure about if we need to run this ?
     subparsers.add_parser("Spec4",help="this runs spec 4").set_defaults(func=spec4)
-    #optional arguments for Imageeditor
-    parser.add_argument("--file", help="change file location (file location string)", default=r"H:\csc1034-team-project\practical-3\resources\img\spec2-images\*")
-    parser.add_argument("--T", help="Choose to create thumbnails of all the given files",
+    parser.add_argument("--file", help="Imageeditor:change file location (file location string)", default=r"H:\csc1034-team-project\practical-3\resources\img\spec2-images\*")
+    parser.add_argument("--T", help="Imageeditor:Choose to create thumbnails of all the given files",
                         default=False)
-    parser.add_argument("--F", help="Decide an image filter",
+    parser.add_argument("--F", help="Imageeditor:Decide an image filter",
                         default=False)
-    parser.add_argument("--RGB", help="Decide an image filter",
+    parser.add_argument("--Fhelp",help="Imageeditor:use this to show our suite of filters",default=False)
+    parser.add_argument("--RGB", help="Imageeditor:Use custom Red tint",
                         default=False)
-    parser.add_argument("--common", help="Find the most common RGB values in each image ",
+    parser.add_argument("--common", help="Imageeditor:Find the most common RGB values in each image ",
                         default=False)
     args=parser.parse_args()
     print(args)
+
     args.func(args)

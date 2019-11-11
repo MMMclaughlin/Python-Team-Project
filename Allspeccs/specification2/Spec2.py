@@ -4,12 +4,9 @@ import PIL.ImageFilter
 import sys
 import time
 def init(args):#this selects the correct function in the class to run
-    print("this worked")
     image_list = []
-    print(args.file)
     folder=str(args.file)
-    print(glob.iglob((folder)))
-    for i in  enumerate(glob.iglob(folder)):
+    for i in  enumerate(glob.iglob(folder)):#this loop makes a list of all the images in the given folder
         file=PIL.Image.open(i[1])
         instance=Imageediting(file,i[1])
         image_list.append(instance)
@@ -25,6 +22,9 @@ def init(args):#this selects the correct function in the class to run
     if args.common:
         for i in enumerate(image_list):
             i[1].CommonColor(args)
+    if args.Fhelp:
+        filterhelp = "BLUR\nCONTOUR\nDETAIL\nEDGE_ENHANCE\nEDGE_ENHANCE_MORE\nEMBOSS\nFIND_EDGES\nSHARPEN\nSMOOTH\nSMOOTH_MORE"
+        print(filterhelp)
 
 class Imageediting():#this is an instance of every image
     def getname(self):
