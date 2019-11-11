@@ -6,12 +6,10 @@ verify_ssl = true
 [dev-packages]
 
 [packages]
-<<<<<<< HEAD
-=======
 flask = "*"
 matplotlib = "*"
 pillow = "*"
->>>>>>> 33bc3a47c6ccbf8319b4234076943f3ff4d3517d
+
 
 [requires]
 python_version = "3.7"
