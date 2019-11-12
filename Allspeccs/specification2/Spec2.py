@@ -3,7 +3,6 @@ import glob
 import PIL.ImageFilter
 import sys
 def init(args):
-    """Chooses which filter function"""
     print("this worked")
     image_list = []
     print(args.file)
