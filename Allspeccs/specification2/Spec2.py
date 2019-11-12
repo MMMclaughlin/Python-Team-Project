@@ -26,13 +26,16 @@ def init(args):
 
 class Imageediting():#this is an instance of every image
     def __init__(self,image,filename):
+        """this is  a constructor"""
         self.file=image
         self.name=filename
     def thumbnailmaker(self,i):#function to make a thumbnail of the object
+        """this makes the image into a small thumbnail"""
         size=128,128
         self.file.thumbnail(size)
         self.file.save(self.name + ".thumbnail", "JPEG")
     def filter(self,args):#takes a filter name as an argument and applies to the object
+        """"this applies a filter given by the user from the image library"""
         print("this is the start of the function")
         option=(args.F).upper()
         print(option)
