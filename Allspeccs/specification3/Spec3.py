@@ -21,20 +21,20 @@ def home():#
 @app.route("/spec1")
 def home1():
     location=(os.path.dirname(os.path.dirname(os.path.realpath(__file__))))+"\specification1\Spec1.py"
-    return Codewriter((textfileopener(location)))
+    string="this is spec 1 and we will look through the text for the most common words and letters"
+    return Codewriter((textfileopener(location)),string)
 
 @app.route("/spec2")
 def home2():
     location=(os.path.dirname(os.path.dirname(os.path.realpath(__file__))))+"\specification2\Spec2.py"
-    return Codewriter((textfileopener(location)))
+    return Codewriter((textfileopener(location)),"test")
 
 @app.route("/spec4")
 def home3():
     location=(os.path.dirname(os.path.dirname(os.path.realpath(__file__))))+"\specification4\Spec4.py"
-    return Codewriter((textfileopener(location)))
-def Codewriter(file):
+    return Codewriter((textfileopener(location)),"test")
+def Codewriter(file,string):
     print("this is spec1")
-    string=""
     for line in file:
         print(line)
         if '"""' in line:
