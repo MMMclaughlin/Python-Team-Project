@@ -11,7 +11,7 @@ def textfileopener(location):
     return textfile
 @app.route("/")
 def home():#
-    string = "<h1>This is the code behind the solutions</h1>"
+    string = "<h1>This is the code behind the solutions to project 3</h1>"
     link1 = "<a href=/spec1><font color='red'>Spec1</font></a>"
     link1 = "<font size=+2>" +link1 +"</font>"
     link2 = "<a href=/spec2><font color='green'>Spec2</font></a>"
