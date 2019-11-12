@@ -3,8 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="b3a1c590-e657-4568-99a8-fc8f86d4cbac" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Allspeccs/specification2/Spec2.py" beforeDir="false" afterPath="$PROJECT_DIR$/Allspeccs/specification2/Spec2.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Allspeccs/specification2/Spec2.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Allspeccs/specification2/Spec2.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Allspeccs/specification3/Spec3.py" beforeDir="false" afterPath="$PROJECT_DIR$/Allspeccs/specification3/Spec3.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -21,8 +19,11 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Allspeccs/specification3/Spec3.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
-              <caret line="15" column="52" selection-start-line="15" selection-start-column="52" selection-end-line="15" selection-end-column="52" />
+            <state relative-caret-position="425">
+              <caret line="25" column="68" lean-forward="true" selection-start-line="25" selection-start-column="68" selection-end-line="25" selection-end-column="68" />
+              <folding>
+                <element signature="e#0#23#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -41,8 +42,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Allspeccs/specification2/Spec2.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="476">
-              <caret line="28" column="38" selection-start-line="28" selection-start-column="38" selection-end-line="28" selection-end-column="38" />
+            <state relative-caret-position="459">
+              <caret line="27" column="38" selection-start-line="27" selection-start-column="38" selection-end-line="27" selection-end-column="38" />
               <folding>
                 <element signature="e#0#16#0" expanded="true" />
               </folding>
@@ -53,8 +54,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Allspeccs/specification2/Spec2.txt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="17">
-              <caret line="1" lean-forward="true" selection-start-line="1" selection-end-line="1" />
+            <state relative-caret-position="1479">
+              <caret line="87" selection-start-line="87" selection-end-line="87" />
             </state>
           </provider>
         </entry>
@@ -115,7 +116,6 @@
     </navigator>
     <panes>
       <pane id="Scope" />
-      <pane id="Course" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -150,6 +150,7 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Course" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -234,7 +235,9 @@
       <workItem from="1572711689771" duration="1574000" />
       <workItem from="1572865309030" duration="1163000" />
       <workItem from="1573467731760" duration="4123000" />
-      <workItem from="1573505906679" duration="4236000" />
+      <workItem from="1573505906679" duration="4441000" />
+      <workItem from="1573565710929" duration="828000" />
+      <workItem from="1573569462189" duration="2895000" />
     </task>
     <task id="LOCAL-00001" summary="Argument parsing created">
       <created>1572711754830</created>
@@ -257,16 +260,23 @@
       <option name="project" value="LOCAL" />
       <updated>1573471822691</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="spec 3">
+      <created>1573510342975</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1573510342975</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="20772000" />
+    <option name="totallyTimeSpent" value="24700000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="2576" height="1416" extended-state="6" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.26232114" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2662957" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
@@ -282,7 +292,7 @@
       <window_info anchor="bottom" id="Event Log" order="11" sideWeight="0.5007949" side_tool="true" weight="0.32951945" />
       <window_info anchor="bottom" id="Favorites" order="12" sideWeight="0.49960256" weight="0.32951945" />
       <window_info anchor="bottom" id="Terminal" order="13" sideWeight="0.49841017" weight="0.32951945" />
-      <window_info anchor="bottom" id="Python Console" order="14" />
+      <window_info anchor="bottom" id="Python Console" order="14" weight="0.32951945" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -323,7 +333,7 @@
     <option name="LAST_COMMIT_MESSAGE" value="spec 3" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/practical_3$Spec3.coverage" NAME="Spec3 Coverage Results" MODIFIED="1573510313575" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Allspeccs/specification3" />
+    <SUITE FILE_PATH="coverage/practical_3$Spec3.coverage" NAME="Spec3 Coverage Results" MODIFIED="1573572620709" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Allspeccs/specification3" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/practical-3/Allspeccs/Parentfile.py" />
@@ -333,23 +343,6 @@
     <entry file="file://$PROJECT_DIR$/practical-3/Allspeccs/specification3/Spec3.py" />
     <entry file="file://$PROJECT_DIR$/practical-3/Allspeccs/specification4/Spec4.py" />
     <entry file="file://$PROJECT_DIR$/practical-3/Allspeccs/cli.py" />
-    <entry file="file://$PROJECT_DIR$/Allspeccs/specification2/Spec2.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="1" lean-forward="true" selection-start-line="1" selection-end-line="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Allspeccs/specification2/Spec2.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="476">
-          <caret line="28" column="38" selection-start-line="28" selection-start-column="38" selection-end-line="28" selection-end-column="38" />
-          <folding>
-            <element signature="e#0#16#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Allspeccs/cli.py">
       <provider selected="true" editor-type-id="text-editor">
         <state>
@@ -359,10 +352,30 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/Allspeccs/specification2/Spec2.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1479">
+          <caret line="87" selection-start-line="87" selection-end-line="87" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Allspeccs/specification2/Spec2.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="459">
+          <caret line="27" column="38" selection-start-line="27" selection-start-column="38" selection-end-line="27" selection-end-column="38" />
+          <folding>
+            <element signature="e#0#16#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/Allspeccs/specification3/Spec3.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="15" column="52" selection-start-line="15" selection-start-column="52" selection-end-line="15" selection-end-column="52" />
+        <state relative-caret-position="425">
+          <caret line="25" column="68" lean-forward="true" selection-start-line="25" selection-start-column="68" selection-end-line="25" selection-end-column="68" />
+          <folding>
+            <element signature="e#0#23#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

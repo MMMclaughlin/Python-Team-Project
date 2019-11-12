@@ -21,18 +21,38 @@ def home():#
 @app.route("/spec1")
 def home1():
     location=(os.path.dirname(os.path.dirname(os.path.realpath(__file__))))+"\specification1\Spec1.py"
-    string="this is spec 1 and we will look through the text for the most common words and letters"
+    string="<font size=+10>This is spec 1, this meets the following objectives:</font><br/>" \
+           "<strong><font color=blue>Read in a .txt file and parse the content.<br/>" \
+           "Perform a frequency analysis of the characters and words in the text file.<br/>" \
+           "Output the frequency of the most occurring words in the text file to a CSV file.</br>" \
+           "Present your frequency analysis of the characters visually using the Matplotlib plotting library.</br>" \
+           "Produce a Markdown file in your repository directory that combines your findings in one place.</strong></font>" \
+            "<br/><br/><br/><br/>"
     return Codewriter((textfileopener(location)),string)
 
 @app.route("/spec2")
 def home2():
     location=(os.path.dirname(os.path.dirname(os.path.realpath(__file__))))+"\specification2\Spec2.py"
-    return Codewriter((textfileopener(location)),"test")
+    string="<font size=+10>This is spec 2, this meets the following objectives:</font><br/>" \
+           "<strong><font color=blue>Read in image files and store them in an appropriate collection ready for modification.<br/>" \
+           "Convert the images to thumbnails and name the new files appropriately.<br/>" \
+           "Apply various filters to the images using the ImageFilter module.<br/>" \
+           "Modify the RGB values of images to produce a new filter.<br/>" \
+           "Experiment with the Pillow library and its modules and save what you have produced.</strong></font>" \
+            "<br/><br/><br/><br/>"
+
+    return Codewriter((textfileopener(location)),string)
 
 @app.route("/spec4")
 def home3():
     location=(os.path.dirname(os.path.dirname(os.path.realpath(__file__))))+"\specification4\Spec4.py"
-    return Codewriter((textfileopener(location)),"test")
+    string="<font size=+10>This is spec 4, this meets the following objectives:</font><br/>" \
+           "<strong><font color=blue>Investigate Python libraries to focus your solution around.<br/>" \
+           "Plan your solution before development.</br>" \
+            "Develop your program solution.<br/>" \
+            "Test your program.</strong></font>" \
+            "<br/><br/><br/><br/>"
+    return Codewriter((textfileopener(location)), string)
 def Codewriter(file,string):
     print("this is spec1")
     for line in file:
