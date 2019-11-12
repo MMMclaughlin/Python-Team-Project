@@ -28,7 +28,7 @@ class App(QMainWindow):
         self.setPalette(p)
 
         self.label = QLabel(self)
-        self.label.setPixmap(QPixmap('hero-locations.jpg'))
+        self.label.setPixmap(QPixmap('background.jpg'))
         self.label.setGeometry(0,0,1000,500)
 
         def open_webbrowser():
