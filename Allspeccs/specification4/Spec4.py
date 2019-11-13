@@ -1,10 +1,10 @@
 import sys
 import time
-from PyQt5.QtWidgets import QApplication, QWidget, QMainWindow, QLabel, QDialog
-from PyQt5.QtGui import QPainter, QColor, QPen, QIcon, QPixmap
-from PyQt5.QtCore import Qt, pyqtSlot
-from PyQt5.QtWidgets import *
 import webbrowser
+from PyQt5.QtWidgets import QLabel
+from PyQt5.QtWidgets import *
+from PyQt5.QtGui import QIcon, QPixmap
+from PyQt5.QtCore import Qt
 
 class App(QMainWindow):
 
@@ -18,6 +18,11 @@ class App(QMainWindow):
         self.center()
         self.setWindowTitle('Shortcuts of useful services for Computer Science students')
         self.setWindowIcon(QIcon('NUicon.png'))
+
+        # self.label = QLabel(self)
+        # self.label.setText("Current date and time:")
+        # self.label.setGeometry(615, 220, 200, 60)
+        # self.label.show()
 
         self.label = QLabel(self)
         self.label.setPixmap(QPixmap('BackGround2.jpg'))
@@ -72,49 +77,61 @@ class App(QMainWindow):
         button6.clicked.connect(open_webbrowser6)
 
         def open_webbrowser7():
-            webbrowser.open('https://office365.ncl.ac.uk')
+            webbrowser.open('https://appspay.ncl.ac.uk/sport/Login')
 
-        button7 = QPushButton('EMAIL', self)
-        button7.setToolTip('Your university\'s OutLook email')
+        button7 = QPushButton('SPORT', self)
+        button7.setToolTip('Get a membership to start using sport facilities')
         button7.setGeometry(230, 140, 150, 60)
         button7.clicked.connect(open_webbrowser7)
 
         def open_webbrowser8():
-            webbrowser.open('https://s3p.ncl.ac.uk/Login/Index.aspx')
+            webbrowser.open('https://office365.ncl.ac.uk')
 
-        button8 = QPushButton('S3P', self)
-        button8.setToolTip('Newcastle University\'s Student Self Service Portal')
+        button8 = QPushButton('EMAIL', self)
+        button8.setToolTip('Your university\'s OutLook email')
         button8.setGeometry(230, 220, 150, 60)
         button8.clicked.connect(open_webbrowser8)
 
         def open_webbrowser9():
-            webbrowser.open('https://appspay.ncl.ac.uk/sport/Login')
+            webbrowser.open('https://s3p.ncl.ac.uk/Login/Index.aspx')
 
-        button9 = QPushButton('SPORT', self)
-        button9.setToolTip('Get a membership for using sport facilities')
+        button9 = QPushButton('S3P', self)
+        button9.setToolTip('Newcastle University\'s Student Self Service Portal')
         button9.setGeometry(230, 300, 150, 60)
         button9.clicked.connect(open_webbrowser9)
 
-        def open_webbrowser10():
-            webbrowser.open('')
+        def on_button_clicked():
+            alert = QMessageBox()
+            alert.setText('Pressing button with the name of the service will open a webbrowser '
+                          '(or a new tab, if webbrowser is already opened) with a login page. '
+                          'Place your cursor over the button to see more information')
+            alert.exec_()
 
-        button10 = QPushButton('', self)
-        button10.setToolTip('')
+        button10 = QPushButton('INFO!', self)
+        button10.setToolTip('Press to know more about the app and functionality')
         button10.setGeometry(230, 380, 150, 60)
-        button10.clicked.connect(open_webbrowser10)
+        button10.setStyleSheet("background-color: red")
+        button10.clicked.connect(on_button_clicked)
+
+        def open_webbrowser11():
+            webbrowser.open('https://www.nusu.co.uk')
+
+        button11 = QPushButton('NUSU', self)
+        button11.setToolTip('Newcastle Universrity Student Union')
+        button11.setGeometry(615, 380, 150, 60)
+        button11.setStyleSheet("background-color: white")
+        button11.label = QLabel(button11)
+        button11.label.setPixmap(QPixmap('NUSUbutton.jpg'))
+        button11.label.setGeometry(3, 3, 144, 54)
+        button11.clicked.connect(open_webbrowser11)
 
         self.show()
 
     def center(self):
-
         qr = self.frameGeometry()
         cp = QDesktopWidget().availableGeometry().center()
         qr.moveCenter(cp)
         self.move(qr.topLeft())
-
-    @pyqtSlot()
-    def on_click1(self):
-        print('ok')
 
 if __name__ == '__main__':
 
