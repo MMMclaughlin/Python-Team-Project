@@ -19,11 +19,6 @@ class App(QMainWindow):
         self.setWindowTitle('Shortcuts of useful services for Computer Science students')
         self.setWindowIcon(QIcon('NUicon.png'))
 
-        # self.label = QLabel(self)
-        # self.label.setText("Current date and time:")
-        # self.label.setGeometry(615, 220, 200, 60)
-        # self.label.show()
-
         self.label = QLabel(self)
         self.label.setPixmap(QPixmap('BackGround2.jpg'))
         self.label.setGeometry(0,0,1000,500)
@@ -102,9 +97,10 @@ class App(QMainWindow):
 
         def on_button_clicked():
             alert = QMessageBox()
-            alert.setText('Pressing button with the name of the service will open a webbrowser '
-                          '(or a new tab, if webbrowser is already opened) with a login page. '
-                          'Place your cursor over the button to see more information')
+            alert.setText('\nPressing button with the name of the service will open a webbrowser '
+                          '(or a new tab, if webbrowser is already opened) with a login page. \n\n'
+                          'Place your cursor over the button to see more information. \n\n'
+                          'Created by Tom Sevcov for CSC1034 Team Project using Python and PyQT5 library.')
             alert.exec_()
 
         button10 = QPushButton('INFO!', self)
