@@ -48,13 +48,13 @@ def home2():
            r"modification.<br/>" \
             r"  -This is done using  <font color=red> insert explanation here </font><br/>" \
            r"Convert the images to thumbnails and name the new files appropriately.<br/>" \
-            r"  -This is done using  <font color=red> insert explanation here </font><br/>" \
+            r"  -This is done using  <font color=red> for i in  enumerate(glob.iglob(folder)): </font><br/>" \
            r"Apply various filters to the images using the ImageFilter module.<br/>" \
             r"  -This is done using  <font color=red> insert explanation here </font><br/>" \
            r"Modify the RGB values of images to produce a new filter.<br/>" \
             r"  -This is done using  <font color=red> insert explanation here </font><br/>" \
            r"Experiment with the Pillow library and its modules and save what you have produced.<br/>" \
-           r"  -This is done using  <font color=red> insert explanation here </font></br>" \
+            r"  -This is done using  <font color=red> insert explanation here </font></br>" \
             r"</font></strong><br/><br/><br/><br/>"
 
     return Codewriter((textfileopener(location)),string)
