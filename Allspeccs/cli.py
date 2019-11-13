@@ -20,7 +20,7 @@ def CLI():#this sets up the arguments we pass to run different parts
     #these will be arguments we can run to test each spec and keep them seperate
     subparsers.add_parser("Frequency",help="This will analyse the frequency of words in a string of text").set_defaults(func=spec1)
     subparsers.add_parser("Imageeditor",help="THis will edit the images in a given folder").set_defaults(func=spec2)
-    subparsers.add_parser("website",help="This creates the website?").set_defaults(func=spec3)#not sure about if we need to run this ?
+    subparsers.add_parser("website",help="This creates the website?").set_defaults(func=spec3)
     subparsers.add_parser("Spec4",help="this runs spec 4").set_defaults(func=spec4)
     parser.add_argument("--file", help="Imageeditor:change file location (file location string)", default=r"H:\csc1034-team-project\practical-3\resources\img\spec2-images\*")
     parser.add_argument("--T", help="Imageeditor:Choose to create thumbnails of all the given files",
