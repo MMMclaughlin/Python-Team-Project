@@ -44,7 +44,7 @@ def home2():
     """This is the function which is returned on the spec 2 page"""
     location=(os.path.dirname(os.path.dirname(os.path.realpath(__file__))))+"\specification2\Spec2.py"
     string=r"<font size=+10>This is spec 2, this meets the following objectives:</font><br/>" \
-           r"<strong><font color=blue>Read in image files and store them in an appropriate collection ready for \ " \
+           r"<strong><font color=blue>Read in image files and store them in an appropriate collection ready for" \
            r"modification.<br/>" \
             r"  -This is done using  <font color=red> insert explanation here </font><br/>" \
            r"Convert the images to thumbnails and name the new files appropriately.<br/>" \
