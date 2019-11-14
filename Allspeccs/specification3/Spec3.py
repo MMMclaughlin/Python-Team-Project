@@ -2,7 +2,7 @@ from flask import Flask
 import os
 app = Flask(__name__)
 def textfileopener(location):
-    """This opens the python file, converts it to a .txt file """
+    """This opens the python file, converts it to a .txt file"""
     file=open(location,"r")
     textfile = open(location+".txt","w")#this will be the text version of the python file
     for line in file:#rewrite everyline
