@@ -1,7 +1,9 @@
 import matplotlib.pyplot as plt
+import os
 # opens text.txt with the utf-8 encoding so that it can deal with the weird encoding of the text file
 def Spec1():
-    streamreader = open("text.txt", "r", encoding="utf-8")
+    print(os.path.realpath(__file__))
+    streamreader = open(os.path.realpath(__file__), "r", encoding="utf-8")
     characters = {}
     dictionary = {}
     amount_of_values = 0
