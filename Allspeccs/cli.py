@@ -2,7 +2,7 @@ import argparse
 from specification1 import Spec1
 from specification2 import Spec2
 from specification3 import Spec3
-#from specification4 import Spec4
+from specification4 import Spec4
 
 #these functions run each of our programs, change the called function to be correct
 def spec1(args):
@@ -13,7 +13,7 @@ def spec3(args):
     print("spec3")
     Spec3.Spec3()
 def spec4(args):
-    Spec4.test()
+    Spec4.Spec4()
 def CLI():#this sets up the arguments we pass to run different parts
     filterhelp="BLUR\nCONTOUR\nDETAIL\nEDGE_ENHANCE\nEDGE_ENHANCE_MORE\nEMBOSS\nFIND_EDGES\nSHARPEN\nSMOOTH\nSMOOTH_MORE"
     parser = argparse.ArgumentParser(prog="Grouptask")#creates parser
