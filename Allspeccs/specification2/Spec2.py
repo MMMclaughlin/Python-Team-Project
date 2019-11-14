@@ -86,9 +86,3 @@ class Imageediting():#this is an instance of every image
                         GvaluePixel=pixel#this keeps track of the greatest values so that i do not need to refind it
         print("the most common RGB value in",self.getname(),"is",GvaluePixel,)
 
-
-
-
-
-git
-

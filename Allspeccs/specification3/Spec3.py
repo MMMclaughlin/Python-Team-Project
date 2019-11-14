@@ -85,6 +85,6 @@ def Codewriter(file,string):
             line = "<font color='purple'>" + line + "</font>"
         string = "<pre>" + string + line + "<br/>" +"</pre>"
     return string
-
-if __name__ == "__main__":
+def Spec3():
+    print("spec3")
     app.run(debug=True)

@@ -129,21 +129,22 @@ class App(QMainWindow):
         qr.moveCenter(cp)
         self.move(qr.topLeft())
 
-if __name__ == '__main__':
+def Spec4():
+    if __name__ == '__main__':
 
-    app = QApplication(sys.argv)
-    app.setStyle('Fusion')
+        app = QApplication(sys.argv)
+        app.setStyle('Fusion')
 
-    splash_pix = QPixmap('BackGround1.jpg')
-    splash = QSplashScreen(splash_pix, Qt.WindowStaysOnTopHint)
-    splash.setWindowFlags(Qt.WindowStaysOnTopHint | Qt.SplashScreen)
-    splash.setEnabled(False)
-    splash.setMask(splash_pix.mask())
-    splash.show()
-    app.processEvents()
+        splash_pix = QPixmap('BackGround1.jpg')
+        splash = QSplashScreen(splash_pix, Qt.WindowStaysOnTopHint)
+        splash.setWindowFlags(Qt.WindowStaysOnTopHint | Qt.SplashScreen)
+        splash.setEnabled(False)
+        splash.setMask(splash_pix.mask())
+        splash.show()
+        app.processEvents()
 
-    time.sleep(2)
+        time.sleep(2)
 
-    ex = App()
-    splash.finish(ex)
-    sys.exit(app.exec_())
+        ex = App()
+        splash.finish(ex)
+        sys.exit(app.exec_())
