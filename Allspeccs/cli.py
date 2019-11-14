@@ -1,16 +1,17 @@
 import argparse
-from .specification1 import Spec1
-from .specification2 import Spec2
-from .specification3 import Spec3
-from .specification4 import Spec4
+from specification1 import Spec1
+from specification2 import Spec2
+from specification3 import Spec3
+#from specification4 import Spec4
 
 #these functions run each of our programs, change the called function to be correct
 def spec1(args):
-    Spec1.test()
+    Spec1.Spec1()
 def spec2(args):
     Spec2.init(args)
 def spec3(args):
-    Spec3.test()
+    print("spec3")
+    Spec3.Spec3()
 def spec4(args):
     Spec4.test()
 def CLI():#this sets up the arguments we pass to run different parts
@@ -33,6 +34,5 @@ def CLI():#this sets up the arguments we pass to run different parts
     parser.add_argument("--common", help="Imageeditor:Find the most common RGB values in each image ",
                         default=False)
     args=parser.parse_args()
-    print(args)
 
     args.func(args)
