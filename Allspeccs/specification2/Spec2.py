@@ -5,7 +5,11 @@ import sys
 import time
 def init(args):#this selects the correct function in the class to run
     image_list = []
-    folder=str(args.file)
+    if args.file:
+        folder=str(args.file)+"\*"
+    else:
+        print("please give a folder location with the --file argument")
+        return
     for i in  enumerate(glob.iglob(folder)):#this loop makes a list of all the images in the given folder
         file=PIL.Image.open(i[1])
         instance=Imageediting(file,i[1])

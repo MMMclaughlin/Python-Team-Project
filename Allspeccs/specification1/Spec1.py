@@ -1,9 +1,12 @@
 import matplotlib.pyplot as plt
 import os
 # opens text.txt with the utf-8 encoding so that it can deal with the weird encoding of the text file
-def Spec1():
+def Spec1(filelocation):
     print(os.path.realpath(__file__))
-    streamreader = open(os.path.realpath(__file__), "r", encoding="utf-8")
+    if filelocation:
+        streamreader = open((filelocation), "r", encoding="utf-8")
+    else:
+        print("please give a text files location")
     characters = {}
     dictionary = {}
     amount_of_values = 0
