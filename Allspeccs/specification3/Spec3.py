@@ -26,16 +26,19 @@ def home1():
     location=(os.path.dirname(os.path.dirname(os.path.realpath(__file__))))+"\specification1\Spec1.py"
     string=r"<font size=+10>This is spec 1, this meets the following objectives:</font><br/>" \
            r"<strong><font color=blue>Read in a .txt file and parse the content.<br/>" \
-            r"  -This is done using <font color=red>streamreader = open('text.txt', "r", encoding='utf-8')'</font><br/>" \
+            r"  -This is done using <font color=red> streamreader = open('text.txt', 'r', encoding='utf-8')'" \
+           r"</font><br/>" \
            r"Perform a frequency analysis of the characters and words in the text file.<br/>" \
-            r"  -This is done using the code within the <font color=red>for line in streamreader:</font><br/>" \
+            r"  -This is done using the code within the <font color=red> for line in streamreader: </font> loop<br/>" \
            r"Output the frequency of the most occurring words in the text file to a CSV file.<br/>" \
-            r"  -This is done using the code within <font color=red>if character == ' ' or character == '.'':</font><br/>" \
+            r"  -This is done using the code within <font color=red>streamwriter.write(dictionary.__str__()) \
+            </font><br/>" \
            r"Present your frequency analysis of the characters visually using the Matplotlib plotting library.</br>" \
-            r"  -This is done using <font color=red> insert explanation here </font><br/>" \
+            r"  -This is done using <font color=red> figure = plt.subplot() ... plt.show() </font><br/>" \
            r"Produce a Markdown file in your repository directory that combines your findings in " \
            r"one place.<br/>" \
-            r"  -This is done using  <font color=red> insert explanation here </font><br/><br/>" \
+            r"  -This is done using <font color=red> streamwriter = open('analysis.md', 'w', encoding='utf-8') ... " \
+             r"streamwriter.write(characters.__str__())</font><br/>" \
             r"</font></strong><br/><br/><br/><br/>"
     return Codewriter((textfileopener(location)),string)
 
@@ -46,15 +49,14 @@ def home2():
     string=r"<font size=+10>This is spec 2, this meets the following objectives:</font><br/>" \
            r"<strong><font color=blue>Read in image files and store them in an appropriate collection ready for" \
            r"modification.<br/>" \
-            r"  -This is done using  <font color=red> insert explanation here </font><br/>" \
+            r"  -This is done using <font color=red> for i in  enumerate(glob.iglob(folder)): </font><br/>" \
            r"Convert the images to thumbnails and name the new files appropriately.<br/>" \
-            r"  -This is done using  <font color=red> for i in  enumerate(glob.iglob(folder)): </font><br/>" \
+            r"  -This is done using the <font color=red> if args.T: </font> function<br/>" \
            r"Apply various filters to the images using the ImageFilter module.<br/>" \
-            r"  -This is done using  <font color=red> insert explanation here </font><br/>" \
+            r"  -This module is imported using <font color=red> import PIL.ImageFilter </font><br/>" \
            r"Modify the RGB values of images to produce a new filter.<br/>" \
-            r"  -This is done using  <font color=red> insert explanation here </font><br/>" \
+            r"  -This is done using the <font color=red> if args.RGB: </font> function<br/>" \
            r"Experiment with the Pillow library and its modules and save what you have produced.<br/>" \
-            r"  -This is done using  <font color=red> insert explanation here </font></br>" \
             r"</font></strong><br/><br/><br/><br/>"
 
     return Codewriter((textfileopener(location)),string)
@@ -63,15 +65,11 @@ def home2():
 def home3():
     """This is the function which is returned on the spec 4 page"""
     location=(os.path.dirname(os.path.dirname(os.path.realpath(__file__))))+"\specification4\Spec4.py"
-    string=r"<font size=+10>This is spec 4, this meets the following objectives:</font><br/>" \
+    string=r"<font size=+10> This is spec 4, this meets the following objectives: </font><br/>" \
            r"<strong><font color=blue>Investigate Python libraries to focus your solution around.<br/>" \
-            r"  -This is done using  <font color=red> insert explanation here </font><br/>" \
            r"Plan your solution before development.</br>" \
-            r"  -This is done using  <font color=red> insert explanation here </font><br/>" \
-    r"Develop your program solution.<br/>" \
-            r"  -This is done using  <font color=red> insert explanation here </font><br/>" \
+           r"Develop your program solution.<br/>" \
            r"Test your program.<br/>" \
-            r"  -This is done using  <font color=red> insert explanation here </font><br/>" \
            "</strong></font><br/><br/><br/><br/>"
     return Codewriter((textfileopener(location)), string)
 def Codewriter(file,string):
@@ -88,3 +86,4 @@ def Codewriter(file,string):
 def Spec3():
     print("spec3")
     app.run(debug=True)
+Spec3()
