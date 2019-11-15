@@ -31,8 +31,8 @@ def home1():
            r"Perform a frequency analysis of the characters and words in the text file.<br/>" \
             r"  -This is done using the code within the <font color=red> for line in streamreader: </font> loop<br/>" \
            r"Output the frequency of the most occurring words in the text file to a CSV file.<br/>" \
-            r"  -This is done using the code within <font color=red>streamwriter.write(dictionary.__str__()) \
-            </font><br/>" \
+            r"  -This is done using the code within <font color=red> streamwriter.write(dictionary.__str__())" \
+            r"</font><br/>" \
            r"Present your frequency analysis of the characters visually using the Matplotlib plotting library.</br>" \
             r"  -This is done using <font color=red> figure = plt.subplot() ... plt.show() </font><br/>" \
            r"Produce a Markdown file in your repository directory that combines your findings in " \
