@@ -7,6 +7,7 @@ def Spec1(filelocation):
         streamreader = open((filelocation), "r", encoding="utf-8")
     else:
         print("please give a text files location")
+        return
     characters = {}
     dictionary = {}
     amount_of_values = 0

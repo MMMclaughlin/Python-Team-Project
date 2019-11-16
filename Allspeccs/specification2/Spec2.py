@@ -2,7 +2,6 @@ import PIL.Image
 import glob
 import PIL.ImageFilter
 import sys
-import time
 def init(args):#this selects the correct function in the class to run
     image_list = []
     if args.file:
