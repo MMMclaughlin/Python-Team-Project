@@ -11,6 +11,7 @@ pil = "*"
 image = "*"
 pyqt5 = "*"
 PyQt5 = "*"
+MatplotLib ="*"
 
 [requires]
 python_version = "3.7"
