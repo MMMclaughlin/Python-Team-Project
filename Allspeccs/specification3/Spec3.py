@@ -86,4 +86,3 @@ def Codewriter(file,string):
 def Spec3():
     print("spec3")
     app.run(debug=True)
-Spec3()

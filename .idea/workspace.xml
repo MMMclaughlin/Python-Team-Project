@@ -1,11 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="b3a1c590-e657-4568-99a8-fc8f86d4cbac" name="Default Changelist" comment="">
+    <list default="true" id="b3a1c590-e657-4568-99a8-fc8f86d4cbac" name="Default Changelist" comment="Finishing touches">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Allspeccs/specification1/Spec1.py.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Allspeccs/specification1/Spec1.py.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Allspeccs/specification2/Spec2.py.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Allspeccs/specification2/Spec2.py.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Allspeccs/specification3/Spec3.py" beforeDir="false" afterPath="$PROJECT_DIR$/Allspeccs/specification3/Spec3.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -27,8 +24,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Allspeccs/specification3/Spec3.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="335">
-              <caret line="36" column="81" selection-start-line="36" selection-start-column="81" selection-end-line="36" selection-end-column="81" />
+            <state relative-caret-position="1141">
+              <caret line="88" column="7" lean-forward="true" selection-start-line="88" selection-start-column="7" selection-end-line="88" selection-end-column="7" />
             </state>
           </provider>
         </entry>
@@ -170,6 +167,12 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
@@ -315,7 +318,10 @@
       <workItem from="1573761346287" duration="1526000" />
       <workItem from="1573765824925" duration="4165000" />
       <workItem from="1573812210824" duration="4902000" />
-      <workItem from="1573825534629" duration="749000" />
+      <workItem from="1573825534629" duration="1472000" />
+      <workItem from="1573834009749" duration="14000" />
+      <workItem from="1573997068731" duration="599000" />
+      <workItem from="1574003928774" duration="303000" />
     </task>
     <task id="LOCAL-00001" summary="Argument parsing created">
       <created>1572711754830</created>
@@ -415,22 +421,29 @@
       <option name="project" value="LOCAL" />
       <updated>1573816059599</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="Finishing touches">
+      <created>1573826296880</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1573826296880</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="91238000" />
+    <option name="totallyTimeSpent" value="92877000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="2576" height="1416" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.07869634" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.07988871" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.49801272" visible="true" weight="0.32951945" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49801272" weight="0.32951945" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -590,8 +603,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Allspeccs/specification3/Spec3.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="335">
-          <caret line="36" column="81" selection-start-line="36" selection-start-column="81" selection-end-line="36" selection-end-column="81" />
+        <state relative-caret-position="1141">
+          <caret line="88" column="7" lean-forward="true" selection-start-line="88" selection-start-column="7" selection-end-line="88" selection-end-column="7" />
         </state>
       </provider>
     </entry>
