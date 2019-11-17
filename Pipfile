@@ -7,7 +7,7 @@ verify_ssl = true
 
 [packages]
 flask = "*"
-pil = "*"
+Pillow = "*"
 image = "*"
 pyqt5 = "*"
 PyQt5 = "*"
