@@ -10,9 +10,11 @@ Qt is a set of C++ libraries and development tools that includes platform indepe
 
 https://pypi.org/project/PyQt5/
 
-#### Installation
+#### Installation and running
 
-`pip install PyQt5`
+To install: `pip install PyQt5`
+
+To run: `cd Allspeccs`, then `pipenv run python Parentfile.py Spec4`
 
 #### Documentation
 
@@ -21,6 +23,9 @@ https://www.riverbankcomputing.com/static/Docs/PyQt5/
 #### Credit
 
 PyQt description taken from https://www.riverbankcomputing.com/static/Docs/PyQt5/introduction.html
+
 Services: Newcastle University
+
 App icon: Newcastle University
+
 Background photos: Tom Sevcov
