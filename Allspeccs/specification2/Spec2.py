@@ -2,7 +2,6 @@ import PIL.Image
 import glob
 import PIL.ImageFilter
 import sys
-import time
 def init(args):#this selects the correct function in the class to run
     image_list = []
     if args.file:
@@ -77,7 +76,7 @@ class Imageediting():#this is an instance of every image
         dict={}#this will hold a key value pair of each rgb value and the amount of times we find it
         greatestvalue=0
         GvaluePixel=(0,0,0)
-        for y in range(0,height):
+        for y in range(0,height):#loop through each pixel
             for x in range(0, width):
                 values=x, y
                 pixel=self.getfile().getpixel(values)
