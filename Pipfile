@@ -7,14 +7,10 @@ verify_ssl = true
 
 [packages]
 flask = "*"
-Pillow = "*"
+pillow = "*"
 image = "*"
 pyqt5 = "*"
-PyQt5 = "*"
-MatplotLib ="*"
-os = "*"
-sys= "*"
-glob "*"
+matplotlib ="*"
 
 [requires]
 python_version = "3.7"

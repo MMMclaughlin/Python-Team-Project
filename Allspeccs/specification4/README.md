@@ -14,6 +14,8 @@ https://pypi.org/project/PyQt5/
 
 To install: `pip install PyQt5`
 
+P.S.: You have to install libraries needed for another specifications, to run program through command line: `pip install pillow`, `pip install matplotlib`, `pip install flask`
+
 To run: `cd Allspeccs`, then `pipenv run python Parentfile.py Spec4`
 
 #### Documentation
