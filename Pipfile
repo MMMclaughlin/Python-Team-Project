@@ -12,6 +12,9 @@ image = "*"
 pyqt5 = "*"
 PyQt5 = "*"
 MatplotLib ="*"
+os = "*"
+sys= "*"
+glob "*"
 
 [requires]
 python_version = "3.7"
