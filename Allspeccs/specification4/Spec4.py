@@ -6,7 +6,11 @@ from PyQt5.QtWidgets import *
 from PyQt5.QtGui import QIcon, QPixmap
 from PyQt5.QtCore import Qt
 
+# Creating main window class
+
 class App(QMainWindow):
+
+    # User interface function
 
     def __init__(self):
         super().__init__()
@@ -14,21 +18,28 @@ class App(QMainWindow):
 
     def initUI(self):
 
+        # Main window, geometry, title, icon
+
         self.resize(1000,500)
         self.center()
         self.setWindowTitle('Shortcuts of useful services for Computer Science students')
         self.setWindowIcon(QIcon('NUicon.png'))
 
+        # Adding background image for main winwod
+
         self.label = QLabel(self)
         self.label.setPixmap(QPixmap('BackGround2.jpg'))
         self.label.setGeometry(0,0,1000,500)
+
+        # Defining functions (opening webbrowser and links) for each button
+        # Creating buttons with title, tooltips, geometry and connecting to functions
 
         def open_webbrowser1():
             webbrowser.open('http://blackboard.ncl.ac.uk/')
 
         button1 = QPushButton('BLACKBOARD', self)
         button1.setToolTip('Lecture ReCaps and learning materials')
-        button1.setGeometry(60, 60, 150, 60)
+        button1.setGeometry(60, 60, 170, 60)
         button1.clicked.connect(open_webbrowser1)
 
         def open_webbrowser2():
@@ -36,7 +47,7 @@ class App(QMainWindow):
 
         button2 = QPushButton('PORTFOLIO', self)
         button2.setToolTip('Your student\'s portfolio')
-        button2.setGeometry(60, 140, 150, 60)
+        button2.setGeometry(60, 140, 170, 60)
         button2.clicked.connect(open_webbrowser2)
 
         def open_webbrowser3():
@@ -44,7 +55,7 @@ class App(QMainWindow):
 
         button3 = QPushButton('NUCODE', self)
         button3.setToolTip('GitHub for students (GitLab)')
-        button3.setGeometry(60, 220, 150, 60)
+        button3.setGeometry(60, 220, 170, 60)
         button3.clicked.connect(open_webbrowser3)
 
         def open_webbrowser4():
@@ -52,7 +63,7 @@ class App(QMainWindow):
 
         button4 = QPushButton('NESS', self)
         button4.setToolTip('Place for submitting your coursework')
-        button4.setGeometry(60, 300, 150, 60)
+        button4.setGeometry(60, 300, 170, 60)
         button4.clicked.connect(open_webbrowser4)
 
         def open_webbrowser5():
@@ -60,7 +71,7 @@ class App(QMainWindow):
 
         button5 = QPushButton('RAS', self)
         button5.setToolTip('Remote Application Service')
-        button5.setGeometry(60, 380, 150, 60)
+        button5.setGeometry(60, 380, 170, 60)
         button5.clicked.connect(open_webbrowser5)
 
         def open_webbrowser6():
@@ -68,7 +79,7 @@ class App(QMainWindow):
 
         button6 = QPushButton('LIBRARY', self)
         button6.setToolTip('University Library')
-        button6.setGeometry(230, 60, 150, 60)
+        button6.setGeometry(250, 60, 170, 60)
         button6.clicked.connect(open_webbrowser6)
 
         def open_webbrowser7():
@@ -76,7 +87,7 @@ class App(QMainWindow):
 
         button7 = QPushButton('SPORT', self)
         button7.setToolTip('Get a membership to start using sport facilities')
-        button7.setGeometry(230, 140, 150, 60)
+        button7.setGeometry(250, 140, 170, 60)
         button7.clicked.connect(open_webbrowser7)
 
         def open_webbrowser8():
@@ -84,7 +95,7 @@ class App(QMainWindow):
 
         button8 = QPushButton('EMAIL', self)
         button8.setToolTip('Your university\'s OutLook email')
-        button8.setGeometry(230, 220, 150, 60)
+        button8.setGeometry(250, 220, 170, 60)
         button8.clicked.connect(open_webbrowser8)
 
         def open_webbrowser9():
@@ -92,7 +103,7 @@ class App(QMainWindow):
 
         button9 = QPushButton('S3P', self)
         button9.setToolTip('Newcastle University\'s Student Self Service Portal')
-        button9.setGeometry(230, 300, 150, 60)
+        button9.setGeometry(250, 300, 170, 60)
         button9.clicked.connect(open_webbrowser9)
 
         def on_button_clicked():
@@ -105,9 +116,11 @@ class App(QMainWindow):
 
         button10 = QPushButton('INFO!', self)
         button10.setToolTip('Press to know more about the app and functionality')
-        button10.setGeometry(230, 380, 150, 60)
+        button10.setGeometry(250, 380, 170, 60)
         button10.setStyleSheet("background-color: red")
         button10.clicked.connect(on_button_clicked)
+
+        # Creating another button (NUSU) with background image (label)
 
         def open_webbrowser11():
             webbrowser.open('https://www.nusu.co.uk')
@@ -121,7 +134,11 @@ class App(QMainWindow):
         button11.label.setGeometry(3, 3, 144, 54)
         button11.clicked.connect(open_webbrowser11)
 
+        # Showing window with buttons
+
         self.show()
+
+    # Defining a function that always opens app (main window) in the center of screen
 
     def center(self):
         qr = self.frameGeometry()
@@ -129,9 +146,16 @@ class App(QMainWindow):
         qr.moveCenter(cp)
         self.move(qr.topLeft())
 
+# Running the app
+
 def Spec4():
     app = QApplication(sys.argv)
+
+    # Changing the style of the app (appearance)
+
     app.setStyle('Fusion')
+
+    # Creating splash screen
 
     splash_pix = QPixmap('BackGround1.jpg')
     splash = QSplashScreen(splash_pix, Qt.WindowStaysOnTopHint)
@@ -140,6 +164,8 @@ def Spec4():
     splash.setMask(splash_pix.mask())
     splash.show()
     app.processEvents()
+
+    # Setting the time to show splash screen to 2 seconds
 
     time.sleep(2)
 
